@@ -14,6 +14,7 @@
 		E3028B3E2972C26B009CA1C7 /* TamagotchiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3028B3D2972C26B009CA1C7 /* TamagotchiTests.swift */; };
 		E3028B482972C26B009CA1C7 /* TamagotchiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3028B472972C26B009CA1C7 /* TamagotchiUITests.swift */; };
 		E3028B4A2972C26B009CA1C7 /* TamagotchiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3028B492972C26B009CA1C7 /* TamagotchiUITestsLaunchTests.swift */; };
+		E3028B572972C30E009CA1C7 /* Tamagotchi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3028B562972C30E009CA1C7 /* Tamagotchi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		E3028B432972C26B009CA1C7 /* TamagotchiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TamagotchiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3028B472972C26B009CA1C7 /* TamagotchiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagotchiUITests.swift; sourceTree = "<group>"; };
 		E3028B492972C26B009CA1C7 /* TamagotchiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagotchiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E3028B562972C30E009CA1C7 /* Tamagotchi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tamagotchi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				E3028B2F2972C26B009CA1C7 /* Assets.xcassets */,
 				E3028B342972C26B009CA1C7 /* Tamagotchi.entitlements */,
 				E3028B312972C26B009CA1C7 /* Preview Content */,
+				E3028B562972C30E009CA1C7 /* Tamagotchi.swift */,
 			);
 			path = Tamagotchi;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3028B2E2972C269009CA1C7 /* ContentView.swift in Sources */,
+				E3028B572972C30E009CA1C7 /* Tamagotchi.swift in Sources */,
 				E3028B2C2972C269009CA1C7 /* TamagotchiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
