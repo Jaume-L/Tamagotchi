@@ -7,19 +7,19 @@
 
 import Foundation
 
-class Tamagotchi {
+class Tamagotchi: ObservableObject {
 //attributes
-    private var weight: Int
-    private var hunger: Int
-    private var happiness: Int
-    private var age: Int
-    private var droppingCount: Int
+    @Published private var weight: Int
+    @Published private var hunger: Int
+    @Published private var happiness: Int
+    @Published private var age: Int
+    @Published private var droppingCount: Int
     
 //constructor
     init() {
-        weight = 0
-        hunger = 5
-        happiness = 0
+        weight = 2
+        hunger = 2
+        happiness = 2
         age = 0
         droppingCount = 0
     }
@@ -71,7 +71,7 @@ class Tamagotchi {
     
 //general methods
     func eatMeal() {
-        if hunger < 5 {
+        if hunger < 4 {
             setHunger(hunger + 1)
             setWeight(weight + 1)
         }
@@ -83,15 +83,20 @@ class Tamagotchi {
     }
     
     func playGame() {
-        
+        setHappiness(happiness + 1)
     }
     
     func growUp() {
         age += 1
     }
     
-    func loseHappiness() {
-        
+    func displayStats() -> String {
+        return """
+        Hunger: \(hunger)
+        Happiness: \(happiness)
+        Weight: \(weight)
+        Age: \(age)
+        """
     }
     
 }
